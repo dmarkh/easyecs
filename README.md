@@ -111,7 +111,7 @@ NOTE: each System must request one or more Queries, that will provide Entity lis
               });
             }
           });
-
+        ecs.registerSystems([ SystemMove, SystemDisplay ]);
 
 ### Basic ECS loop
 
