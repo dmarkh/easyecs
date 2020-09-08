@@ -76,6 +76,6 @@ class SystemManager {
 		return this.whiteboard[name];
 	}
 
-};
+}
 
 export { SystemManager };

@@ -26,7 +26,7 @@ class Log {
 				let log_id = LEVEL, color_id = this.COLORS[log_id];
 				this[LEVEL] = function( ...args ) {
 					console.log( '%c'+ log_id + ' | ', 'color: ' + color_id, ...args );
-				}
+				};
 			} else {
 				this[LEVEL] = function(){};
 			}
@@ -39,49 +39,49 @@ class Log {
 		if ( TRACE3 ) {
 			this.TRACE3 = function( ...args ) {
 				console.log( '%cTRACE | ', 'color: gray', ...args );
-			}
+			};
 		}
 
 		if ( TRACE2 ) {
 			this.TRACE2 = function( ...args ) {
 				console.log( '%cTRACE | ', 'color: gray', ...args );
-			}
+			};
 		}
 
 		if ( TRACE ) {
 			this.TRACE = function( ...args ) {
 				console.log( '%cTRACE | ', 'color: gray', ...args );
-			}
+			};
 		}
 	
 		if ( DEBUG ) {
 			this.DEBUG = function( ...args ) {
 				console.log( '%cDEBUG | ', 'color: blue', ...args );
-			}
+			};
 		}
 
 		if ( INFO ) {
 			this.INFO = function( ...args ) {
 				console.log( '%c INFO | ', 'color: green', ...args );
-			}
+			};
 		}
 
 		if ( WARN ) {
 			this.WARN = function( ...args ) {
 				console.log( '%c WARN | ', 'color: brown', ...args );
-			}
+			};
 		}
 
 		if ( ERROR ) {
 			this.ERROR = function( ...args ) {
 				console.log( '%cERROR | ', 'color: red', ...args );
-			}
+			};
 		}
 
 		if ( FATAL ) {
 			this.FATAL = function( ...args ) {
 				console.log( '%cFATAL | ', 'color: purple', ...args );
-			}
+			};
 		}
 
 	}

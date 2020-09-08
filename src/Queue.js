@@ -53,6 +53,6 @@ class Queue {
 		return Array.from( this.items.values() )[ this.size - 1 ];
 	}
 
-};
+}
 
 export { Queue };

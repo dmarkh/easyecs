@@ -13,7 +13,7 @@ function merge_objects( target = Object.create( null, {} ), ...objects ) {
 		});
 		return prev;
 	}, target );
-};
+}
 
 function merge_objects_incdec( target = Object.create( null, {} ), ...objects ) {
 	const is_object = obj => ( obj && typeof obj === 'object' && !Array.isArray(obj) );
@@ -32,7 +32,7 @@ function merge_objects_incdec( target = Object.create( null, {} ), ...objects ) 
 		});
 		return prev;
 	}, target );
-};
+}
 
 function make_grid( x, y, v = 0 ) {
 	return Array.from( Array( x ), () => Array( y ).fill( v ));

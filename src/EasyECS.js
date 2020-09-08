@@ -120,6 +120,6 @@ class EasyECS {
 		return this.entityManager.deserialize( json );
 	}
 
-};
+}
 
 export { EasyECS };

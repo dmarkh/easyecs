@@ -48,7 +48,7 @@ class EntityManager {
 
 	has( id ) {
 		if (!id) { return false; }
-		return this.entities.has( id )
+		return this.entities.has( id );
 	}
 
 	get( id ) {
@@ -160,7 +160,7 @@ class EntityManager {
 			return;
 		}
 		if ( !component_name ) {
-			LOG.ERROR( 'EntityManager::_updateEntity - entity has no component "' + component_name + '"' )
+			LOG.ERROR( 'EntityManager::_updateEntity - entity has no component "' + component_name + '"' );
 			return;
 		}
 		if ( !this.componentManager.has( component_name ) ) {
@@ -203,6 +203,6 @@ class EntityManager {
 
 	}
 
-};
+}
 
 export { EntityManager };

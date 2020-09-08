@@ -106,6 +106,6 @@ class Query {
 	}
 
 
-};
+}
 
 export { Query };

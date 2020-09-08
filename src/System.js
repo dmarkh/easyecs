@@ -81,6 +81,6 @@ class System {
 		if ( this._cb_deinit ) { this._cb_deinit(); }
 	}
 
-};
+}
 
 export { System };

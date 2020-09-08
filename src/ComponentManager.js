@@ -128,6 +128,6 @@ class ComponentManager {
 		items.forEach( item => this.components.set( item[0], item[1] ) );
 	}
 
-};
+}
 
 export { ComponentManager };

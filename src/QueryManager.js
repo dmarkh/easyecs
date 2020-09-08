@@ -124,6 +124,6 @@ class QueryManager {
 		}
 	}
 
-};
+}
 
 export { QueryManager };
