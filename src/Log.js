@@ -33,6 +33,7 @@ class Log {
 		}
 	}
 
+	
 	// uncommon way to set log levels :)
 	levels({ FATAL = false, ERROR = false, WARN = false, INFO = false, DEBUG = false, TRACE = false, TRACE2 = false, TRACE3 = false }) {
 
